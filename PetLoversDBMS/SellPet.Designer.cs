@@ -34,8 +34,6 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.txtBxCust = new System.Windows.Forms.TextBox();
             this.custLbl = new System.Windows.Forms.Label();
-            this.petLbl = new System.Windows.Forms.Label();
-            this.txtBxPet = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -98,30 +96,10 @@
             this.custLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.custLbl.Location = new System.Drawing.Point(715, 331);
             this.custLbl.Name = "custLbl";
-            this.custLbl.Size = new System.Drawing.Size(189, 31);
+            this.custLbl.Size = new System.Drawing.Size(151, 25);
             this.custLbl.TabIndex = 5;
             this.custLbl.Text = "CUSTOMER ID";
             this.custLbl.Visible = false;
-            // 
-            // petLbl
-            // 
-            this.petLbl.AutoSize = true;
-            this.petLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.petLbl.Location = new System.Drawing.Point(715, 379);
-            this.petLbl.Name = "petLbl";
-            this.petLbl.Size = new System.Drawing.Size(75, 25);
-            this.petLbl.TabIndex = 6;
-            this.petLbl.Text = "PET ID";
-            this.petLbl.Visible = false;
-            // 
-            // txtBxPet
-            // 
-            this.txtBxPet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBxPet.Location = new System.Drawing.Point(910, 380);
-            this.txtBxPet.Name = "txtBxPet";
-            this.txtBxPet.Size = new System.Drawing.Size(129, 30);
-            this.txtBxPet.TabIndex = 7;
-            this.txtBxPet.Visible = false;
             // 
             // SellPet
             // 
@@ -129,8 +107,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1114, 452);
-            this.Controls.Add(this.txtBxPet);
-            this.Controls.Add(this.petLbl);
             this.Controls.Add(this.custLbl);
             this.Controls.Add(this.txtBxCust);
             this.Controls.Add(this.btnUpdate);
@@ -139,7 +115,6 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "SellPet";
             this.Text = "Sell Pet";
-          
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -154,7 +129,5 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.TextBox txtBxCust;
         private System.Windows.Forms.Label custLbl;
-        private System.Windows.Forms.Label petLbl;
-        private System.Windows.Forms.TextBox txtBxPet;
     }
 }
