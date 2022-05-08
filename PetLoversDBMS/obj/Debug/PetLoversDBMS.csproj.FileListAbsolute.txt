@@ -33,3 +33,6 @@ C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\bin\Debug\System.Runtime
 C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.Home.resources
 C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.PetReport.resources
 C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.csproj.CopyComplete
+C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.AddPet.resources
+C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.AddCustomer.resources
+C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.SellPet.resources
