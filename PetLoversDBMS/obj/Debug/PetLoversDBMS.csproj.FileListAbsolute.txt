@@ -36,3 +36,9 @@ C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.
 C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.AddPet.resources
 C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.AddCustomer.resources
 C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.SellPet.resources
+C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.Inventory.resources
+C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.UpdateItem.resources
+C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.AddSupplier.resources
+C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.Employee.resources
+C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.AddEmployee.resources
+C:\Users\da35v\source\repos\PetLoversDBMS\PetLoversDBMS\obj\Debug\PetLoversDBMS.CustomReports.resources

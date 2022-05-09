@@ -23,5 +23,23 @@ namespace PetLoversDBMS
             form2.Show();
             
         }
+
+        private void btnInv_Click(object sender, EventArgs e)
+        {
+            Inventory inventory = new Inventory();
+            inventory.Show();
+        }
+
+        private void btnEmpl_Click(object sender, EventArgs e)
+        {
+            Employee employee = new Employee(); 
+            employee.Show();
+        }
+
+        private void btnCustRep_Click(object sender, EventArgs e)
+        {
+            CustomReports customReports = new CustomReports();
+            customReports.Show();
+        }
     }
 }

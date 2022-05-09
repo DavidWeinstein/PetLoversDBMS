@@ -30,6 +30,9 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnInv = new System.Windows.Forms.Button();
+            this.btnEmpl = new System.Windows.Forms.Button();
+            this.btnCustRep = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -52,12 +55,45 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnInv
+            // 
+            this.btnInv.Location = new System.Drawing.Point(208, 136);
+            this.btnInv.Name = "btnInv";
+            this.btnInv.Size = new System.Drawing.Size(123, 95);
+            this.btnInv.TabIndex = 2;
+            this.btnInv.Text = "Inventory Section";
+            this.btnInv.UseVisualStyleBackColor = true;
+            this.btnInv.Click += new System.EventHandler(this.btnInv_Click);
+            // 
+            // btnEmpl
+            // 
+            this.btnEmpl.Location = new System.Drawing.Point(389, 136);
+            this.btnEmpl.Name = "btnEmpl";
+            this.btnEmpl.Size = new System.Drawing.Size(123, 95);
+            this.btnEmpl.TabIndex = 3;
+            this.btnEmpl.Text = "Employee Section";
+            this.btnEmpl.UseVisualStyleBackColor = true;
+            this.btnEmpl.Click += new System.EventHandler(this.btnEmpl_Click);
+            // 
+            // btnCustRep
+            // 
+            this.btnCustRep.Location = new System.Drawing.Point(580, 136);
+            this.btnCustRep.Name = "btnCustRep";
+            this.btnCustRep.Size = new System.Drawing.Size(123, 95);
+            this.btnCustRep.TabIndex = 4;
+            this.btnCustRep.Text = "Custom Reports";
+            this.btnCustRep.UseVisualStyleBackColor = true;
+            this.btnCustRep.Click += new System.EventHandler(this.btnCustRep_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(841, 327);
+            this.Controls.Add(this.btnCustRep);
+            this.Controls.Add(this.btnEmpl);
+            this.Controls.Add(this.btnInv);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -73,6 +109,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnInv;
+        private System.Windows.Forms.Button btnEmpl;
+        private System.Windows.Forms.Button btnCustRep;
     }
 }
 
